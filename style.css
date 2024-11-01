@@ -1,0 +1,72 @@
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: 'Russo One', sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.bg-image {
+    transition: transform 0.5s ease;
+    border-radius: 15px;
+}
+
+.bg-image:hover {
+    transform: scale(1.05);
+}
+
+.animated {
+    opacity: 0;
+}
+
+.fadeIn {
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+#message {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    display: none;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.boo {
+    animation: boo 1s forwards;
+}
+
+@keyframes boo {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+footer {
+    position: relative;
+    padding: 10px;
+    background-color: #1a1a1a;
+    border-top: 1px solid #444;
+    margin-top: 20px;
+}
