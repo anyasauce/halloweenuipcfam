@@ -2,11 +2,10 @@ body {
     background-color: #1a1a1a;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
-}
+    text-shadow: 1px 1px 3px rgba(255, 165, 0, 0.7);}
 
 h1 {
     font-family: 'Russo One', sans-serif;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
 .image-container {
